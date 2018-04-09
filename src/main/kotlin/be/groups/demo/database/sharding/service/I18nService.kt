@@ -1,7 +1,7 @@
 package be.groups.demo.database.sharding.service
 
-import be.groups.common.database.configuration.DataSourceConfigBuilder
-import be.groups.common.database.sharding.DataSourceContextHolder
+import be.groups.demo.database.sharding.configuration.properties.DataSourceConfigBuilder
+import be.groups.demo.database.sharding.configuration.datasource.DataSourceContextHolder
 import be.groups.demo.database.sharding.model.i18n.I18n
 import be.groups.demo.database.sharding.model.i18n.I18nItem
 import be.groups.demo.database.sharding.model.i18n.I18nLanguage
