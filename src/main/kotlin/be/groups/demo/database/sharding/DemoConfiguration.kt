@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan
 import org.springframework.context.annotation.Import
 
 @SpringBootApplication
-@EntityScan("be.groups.domains")
+@EntityScan("be.groups.demo.database.sharding.model.i18n")
 @ComponentScan("be.groups.demo.database.sharding")
 @Import(value = [(DatabaseShardingComponent::class)])
 class DemoConfiguration

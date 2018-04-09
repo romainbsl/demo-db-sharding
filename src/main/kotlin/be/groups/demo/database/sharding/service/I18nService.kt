@@ -2,12 +2,12 @@ package be.groups.demo.database.sharding.service
 
 import be.groups.common.database.configuration.DataSourceConfigBuilder
 import be.groups.common.database.sharding.DataSourceContextHolder
+import be.groups.demo.database.sharding.model.i18n.I18n
+import be.groups.demo.database.sharding.model.i18n.I18nItem
+import be.groups.demo.database.sharding.model.i18n.I18nLanguage
 import be.groups.demo.database.sharding.repository.I18nRepository
 import be.groups.demo.database.sharding.repository.OracleRepository
 import be.groups.demo.database.sharding.utils.Database
-import be.groups.domains.utils.i18n.I18n
-import be.groups.domains.utils.i18n.I18nItem
-import be.groups.domains.utils.i18n.I18nLanguage
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Component
 import javax.persistence.EntityManager
